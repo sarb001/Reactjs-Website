@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-       <h2> Insdie DeaL gREAT bUT NOW coNTENT Chned  </h2>
+       <h2> 
+           <Navbar />
+       </h2>
     </div>
   );
 }
