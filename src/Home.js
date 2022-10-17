@@ -1,11 +1,9 @@
 import React from 'react';
-import {AiOutlineArrowRight} from 'react-icons/ai';
+import {MdKeyboardArrowRight} from 'react-icons/md';
 
 function Home() 
 {
-  return (
-
-    
+  return ( 
     <div name = "home" 
                 className = 'h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
         <div className = 'max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'> 
@@ -19,8 +17,8 @@ function Home()
                                 like React,Tailwind,Next JS and GraphQL.
                         </p>
                     <div>
-                        <button> Portfolio 
-                          <span> {AiOutlineArrowRight} </span>    
+                        <button className = 'text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '> Portfolio 
+                          <span className = 'hover:rotate-90 duration-300'>  <MdKeyboardArrowRight /> </span>    
                         </button>
                     </div>
             </div> 
