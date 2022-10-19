@@ -5,6 +5,8 @@ import Home from './Home';
 import SocialLinks from './SocialLinks';
 import About from './About';
 import Portfolio from './Portfolio';
+import Experience from './Experience';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
            <SocialLinks />
            <About />
            <Portfolio />
+           <Experience />
+           <Contact />
        </h2>
     </div>
   );
