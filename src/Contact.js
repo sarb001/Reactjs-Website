@@ -17,7 +17,7 @@ import React from 'react'
                     <input type = "text"
                     name = "name"
                     placeholder = "Enter your name"
-                    className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
+                    className = 'p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
                      />
 
                     <input 
